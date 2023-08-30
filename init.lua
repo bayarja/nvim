@@ -1,4 +1,5 @@
 require("settings")
+require("mappings")
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -19,7 +20,7 @@ require("lazy").setup("plugins", {
   spec = nil, ---@type LazySpec
   install = {
     -- try to load one of these colorschemes when starting an installation during startup
-    colorscheme = { "habamax" },
+    colorscheme = { "nightfox" },
   },
   checker = {
     -- automatically check for plugin updates
