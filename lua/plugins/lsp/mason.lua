@@ -15,6 +15,7 @@ return {
 
 		-- enable mason and configure icons
 		mason.setup({
+      path = "prepend",
 			ui = {
 				icons = {
 					package_installed = "✓",
@@ -32,7 +33,7 @@ return {
 				"lua_ls",
 				"prismals",
 				"tsserver",
-        "emmet-ls",
+        "emmet_ls",
         "solang"
 			},
 			-- auto-install configured servers (with lspconfig)
