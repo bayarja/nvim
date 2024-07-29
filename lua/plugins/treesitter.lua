@@ -15,7 +15,7 @@ return {
       autotag = { enable = true },
       highlight = { enable = true, additional_vim_regex_highlighting = true, use_languagetree = true },
       indent = {
-        enable = false,
+        enable = true,
       },
 			ensure_installed = {
 				"bash",
