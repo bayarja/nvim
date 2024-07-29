@@ -41,6 +41,12 @@ opt.iskeyword:append("-")
 -- turn off swapfile
 opt.swapfile = false
 
+-- Define a syntax rule to match multiline text within backticks in JSON
+vim.cmd([[
+  autocmd BufEnter *.{json} syntax match jsonMultiline /`[^`]*`/
+  autocmd BufEnter *.{json} highlight link jsonMultiline NONE
+]])
+
 
 
 
