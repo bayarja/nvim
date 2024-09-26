@@ -32,7 +32,7 @@ return {
 				"cssls",
 				"lua_ls",
 				"prismals",
-				"tsserver",
+				"ts_ls",
         "emmet_ls",
         "solang",
 			},

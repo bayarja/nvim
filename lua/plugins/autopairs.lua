@@ -22,7 +22,6 @@ return {
 				},
 				html_break_line_filetype = {
 					"html",
-					"vue",
 					"typescriptreact",
 					"svelte",
 					"javascriptreact",
