@@ -35,7 +35,6 @@ return {
 				"lua_ls", -- Lua-д зориулсан LSP сервер
 				"graphql", -- GraphQL-д зориулсан LSP сервер
 				"emmet_ls", -- Emmet (HTML, CSS-д хурдан бичихэд туслах) LSP сервер
-				"gopls", -- Go-д зориулсан LSP сервер
 				"rust_analyzer", -- Rust-д зориулсан LSP сервер
 			},
 		})
@@ -49,8 +48,6 @@ return {
 				"black", -- Python кодын форматлагч
 				"pylint", -- Python линтер (кодын алдаа шалгагч)
 				"eslint_d", -- ESLint линтер (TypeScript, JavaScript, React, TSX, TS кодын алдаа шалгагч)
-				"gofumpt", -- Go кодын форматлагч
-				"rustfmt", -- Rust кодын форматлагч
 				"stylelint", -- SASS, CSS-д зориулсан линтер
 			},
 		})
