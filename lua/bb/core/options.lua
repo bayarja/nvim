@@ -5,6 +5,9 @@ vim.cmd("let g:netrw_liststyle = 3") -- netrw файлын хөтчийг мод
 local opt = vim.opt -- vim.opt-ийг opt гэж товчлоод хялбар ашиглана
 local g = vim.g -- global хувьсагч 
 
+opt.endofline = false
+opt.fixendofline = false
+
 opt.mouse = "a"
 
 opt.background = "dark"
